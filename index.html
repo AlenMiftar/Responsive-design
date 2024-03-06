@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script
+      src="https://kit.fontawesome.com/cc39024647.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/ylw2iln.css" />
+    <title>Responsive designs</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo-head" src="images/Logo.svg" alt="logo-head"
+      /></a>
+      <nav>
+        <ul>
+          <li class="hidden"><a href="">Works</a></li>
+          <li class="hidden"><a href="">Services</a></li>
+          <li class="hidden"><a href="">Contact</a></li>
+          <li class="dots">
+            <a href=""><i class="fa-solid fa-ellipsis"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-box">
+        <h1>Japan</h1>
+        <p>
+          Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec
+          viverra eleifend lacus, vitae ullamcor.
+        </p>
+      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./images/Image-phone.png" />
+        <source
+          media="(max-width: 1200px)"
+          srcset="./images/Image-tablet.png"
+        />
+        <source
+          media="(max-width: 1600px)"
+          srcset="./images/Image-desktop.png"
+        />
+        <img src="images/Image-tablet.png" alt="mountain" />
+      </picture>
+    </main>
+  </body>
+</html>
