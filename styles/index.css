@@ -36,6 +36,19 @@ header {
   }
 }
 
+.dots-box {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+  display: none;
+
+  & .dots {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -76,5 +89,9 @@ main {
 @media screen and (max-width: 600px) {
   .links {
     display: none;
+  }
+  .dots-box,
+  .dots {
+    display: flex;
   }
 }
